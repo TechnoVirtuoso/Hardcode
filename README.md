@@ -1,1 +1,1 @@
-# Hardcode
+# Stature_Victor_WordpressTemplate

@@ -1,0 +1,33 @@
+.button-container{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    .advertise-button{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        .advertise{
+            margin-left: 20px;
+            font-weight: 600;
+            max-width: 400px;
+            max-height: 400px; 
+            height: 100%;
+            width: 100%;
+            border-radius: 50%;
+            @media(max-width:1250px){
+                max-width: 250px;
+                max-height: 250px; 
+            } 
+            @media(max-width:767px){
+                margin-top: 20px;
+            } 
+        }
+        @media(max-width:767px){
+            display: grid;
+            margin-top: 20px;
+        }
+
+    }
+}

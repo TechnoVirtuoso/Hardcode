@@ -1,0 +1,94 @@
+.story-george{
+    .image-container{
+        max-width: 600px;
+        width: 100%;
+        margin: 0 auto;
+        padding-top: 80px;
+        @media(max-width:1300px){
+            font-size: 17px;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        @media(max-width:767px){
+            font-size: 17px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        img{
+            max-width: 600px;
+            width: 100%;
+        }
+        .heading{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center;
+            color: rgba(80, 80, 80, 1);
+            padding-top: 10px;
+        }
+    }
+    .para-container{
+        max-width: 1250px;
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+        .buy-button{
+            padding-top:120px ;
+            font-family: $inter;
+            a{
+                padding: 15px 50px;
+                background-color: #482366;
+                border-radius: 50px;
+                color: white;
+                text-decoration: none;
+                &:hover{
+                    transition: box-shadow 0.5s ease;
+                    box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.25);
+                }
+
+            }
+
+        } 
+        .paragraph{
+            font-family: 'Lato';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            text-align: center;
+            color: rgba(80, 80, 80, 0.5);
+            padding-top: 10px;
+            @media(max-width:1300px){
+                font-size: 17px;
+                padding-left: 40px;
+                padding-right: 40px;
+            }
+            @media(max-width:767px){
+                font-size: 17px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+        }
+        
+    }   
+    .button{
+        padding-top:50px ;
+        font-family: $inter;
+        display: flex;
+        justify-content: center;
+        a{
+            padding: 15px 50px;
+            background-color: #482366;
+            border-radius: 50px;
+            color: white;
+            text-decoration: none;
+            &:hover{
+                transition: box-shadow 0.5s ease;
+                box-shadow: 3px 10px 10px rgba(0, 0, 0, 0.25);
+            }
+
+        }
+
+    } 
+
+}

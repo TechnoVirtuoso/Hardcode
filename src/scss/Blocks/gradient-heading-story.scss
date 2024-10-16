@@ -1,0 +1,73 @@
+.story-gradient{
+    .gradient-container{
+        background: no-repeat center center;
+        text-align: center;
+        @media(max-width:1024px){
+        margin-top: 150px;      
+        }
+        .heading-align{        
+            .gradient-heading{
+                font-family: 'Brush';
+                font-style: italic;
+                font-weight: 400;
+                font-size: 150px;
+                background: linear-gradient(to bottom, #482366 55%, #FFFFFFE5 45%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-bottom: -193px;
+                @media(max-width:1024px){
+                    font-size: 120px;
+                    margin: -133px;
+                    padding-left: 40px;
+                    padding-right: 40px;
+                }
+                @media(max-width:850px){
+                    font-size: 80px;
+                    margin: -140px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+                @media(max-width:600px){
+                    font-size: 80px;
+                    margin: -32px;
+                }
+                @media(max-width:560px){
+                    font-size: 50px;
+                    margin: -39px;
+                    position: relative;
+                    top: -68px;
+                    
+                }
+                @media(max-width:560px){
+                    font-size: 40px;
+                    margin: -39px;
+                    position: relative;
+                    top: -54px;
+                    
+                }
+            }
+            .product{
+                position: relative;
+                top:90px;
+                @media (max-width:560px){
+                    top: 0px;
+                }
+
+                img{
+                    @media (max-width:1024px){
+                        height: auto;
+                        width: 600px;
+                    }
+                    @media (max-width:600px){
+                        height: auto;
+                        width: 490px;
+                    }
+                    @media (max-width:560px){
+                        height: auto;
+                        width: 300px;
+                    }
+                }
+            }
+        }    
+    }
+}

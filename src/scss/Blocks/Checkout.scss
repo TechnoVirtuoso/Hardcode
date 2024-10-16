@@ -1,0 +1,116 @@
+.woocommerce{
+
+    form.woocommerce-cart-form{
+        max-width: 1600px;
+        margin: 0 auto;
+        margin-top: 100px;
+        @media(max-width:1600px){
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        @media(max-width:767px){
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents{
+            .woocommerce table.shop_table th{
+                font-family: 'Lato' !important;
+                font-size: 20px;
+            }
+        }
+        .coupon{
+            display: flex;
+            button.button.wp-element-button{
+                background-color: #fDB714;
+                border-radius: 20px;
+            }
+            input#coupon_code{
+                max-width: 150px;
+                width: 100%;
+            }
+        }
+        button.button.wp-element-button{
+            background-color: #fDB714;
+            border-radius: 20px;
+            font-family: 'inter';
+        
+        }
+    }
+    th.product-name{
+        font-family: 'inter';
+        
+    }
+    th.product-price{
+        font-family: 'inter';
+    }
+    th.product-quantity{
+        font-family: 'inter';
+    }
+    th.product-subtotal{
+        font-family: 'inter';
+    }
+}
+a.checkout-button.button.alt.wc-forward.wp-element-button{
+    background-color: #fDB714;
+    border-radius: 20px;
+    color: black !important;
+    font-family: 'inter';
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: normal;
+    height: 50px;
+    border: 1px solid #FDB714;
+    border-radius: 20px;
+    padding: 10px;
+}
+button.button.wp-element-button{
+    background-color: #FDB714;
+    border-radius: 20px;
+    color: #000;
+    font-family: 'inter';
+}
+span.select2-selection.select2-selection--single{
+    border: 1px solid #FDB714;
+    border-radius: 20px;
+    font-family: 'inter';
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow{
+    height: 40px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered{
+    line-height: 0px;
+    overflow: inherit;
+}
+textarea#order_comments{
+    resize: none;
+    height: 300px;
+}
+.cart_totals{
+    font-family: 'inter';
+
+}
+form.checkout_coupon.woocommerce-form-coupon{
+    font-family: 'inter';
+}
+.woocommerce-billing-fields__field-wrapper{
+    font-family: 'inter';
+}
+.woocommerce-additional-fields{
+    font-family: 'inter';
+}
+div#order_review{
+    font-family: 'inter';
+
+}
+button#place_order{
+    background-color: #fDB714;
+    border-radius: 20px;
+    color: #000;
+}
